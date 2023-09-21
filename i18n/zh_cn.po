@@ -3,16 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/BEEmod/BEE2.4/issues\n"
-"POT-Creation-Date: 2022-12-21 13:14+1000\n"
+"POT-Creation-Date: 2023-09-21 17:12+0100\n"
 "PO-Revision-Date: 2019-11-22 10:47+1000\n"
 "Last-Translator: Antecer <antecer@outlook.com>\n"
 "Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: loadScreen.py
 msgid "Skipped!"
@@ -432,11 +432,11 @@ msgstr "光影渲染模式"
 msgid "None"
 msgstr "无！"
 
-#: app/CompilerPane.py app/CompilerPane.py app/CompilerPane.py
+#: app/CompilerPane.py
 msgid "Fast"
 msgstr "最快速度"
 
-#: app/CompilerPane.py app/CompilerPane.py
+#: app/CompilerPane.py
 msgid "Full"
 msgstr "最佳画质"
 
@@ -1056,7 +1056,7 @@ msgstr "请选择要备份的地图！"
 msgid "Load Backup"
 msgstr "载入备份"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Save Backup As"
 msgstr "将备份另存为"
 
@@ -1089,15 +1089,15 @@ msgstr ""
 msgid "BEEMOD {version} - Backup / Restore Puzzles"
 msgstr "BEEMOD {version} - 备份/恢复 谜题"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "New Backup"
 msgstr "新建备份"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Open Backup"
 msgstr "打开备份"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Save Backup"
 msgstr "保存备份"
 
@@ -1347,7 +1347,7 @@ msgstr "导出到 \"{game}\"..."
 msgid "Export to \"{game}\"*..."
 msgstr "导出到 \"{game}\"*..."
 
-#: app/gameMan.py app/gameMan.py
+#: app/gameMan.py
 msgid "BEE2 - Export Failed!"
 msgstr "BEE2 - 导出失败！"
 
@@ -1500,7 +1500,7 @@ msgstr "反馈物品Bug..."
 msgid "Submit Music Bugs..."
 msgstr "反馈物品Bug..."
 
-#: app/helpMenu.py app/helpMenu.py
+#: app/helpMenu.py
 msgid "BEEMOD2 - Failed to open URL"
 msgstr ""
 
@@ -1643,7 +1643,7 @@ msgid "Search:"
 msgstr ""
 
 #. i18n: This is displayed in the options menu to switch to this language.
-#: app/localisation.py app/localisation.py
+#: app/localisation.py
 msgid "__LanguageName"
 msgstr "Chinese"
 
@@ -1750,7 +1750,7 @@ msgstr "斥力凝胶的音效"
 msgid "Excursion Funnel Music"
 msgstr "牵引光束的音效"
 
-#: app/music_conf.py app/music_conf.py
+#: app/music_conf.py
 msgid "Synced Funnel Music"
 msgstr "同步牵引光束的音效"
 
@@ -2153,7 +2153,7 @@ msgstr "传送门2"
 msgid "Aperture Tag"
 msgstr "Aperture Tag"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Delete Palette"
 msgstr "删除选中模板"
 
@@ -2189,7 +2189,7 @@ msgstr "保存模板..."
 msgid "Fill Palette"
 msgstr "重置模板"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Save Settings in Palettes"
 msgstr "在模板中保存配置"
 
@@ -2212,11 +2212,11 @@ msgstr "删除模板 \"{name}\""
 msgid "BEE2 - Delete Palette"
 msgstr "删除选中模板"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "BEE2 - Save Palette"
 msgstr "BEE2 - 保存模板"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Enter a name:"
 msgstr "键入模板名称："
 
@@ -2290,7 +2290,7 @@ msgstr "建议"
 msgid "Signage: {name}"
 msgstr "指示标志: {name}"
 
-#: app/signage_ui.py app/signage_ui.py
+#: app/signage_ui.py
 msgid "Configure Signage"
 msgstr "设置指示标志"
 
@@ -2351,7 +2351,7 @@ msgstr ""
 msgid "Camera Gesture - Generic"
 msgstr ""
 
-#: app/voiceEditor.py app/voiceEditor.py
+#: app/voiceEditor.py
 msgid "No Name!"
 msgstr "没有名称！"
 

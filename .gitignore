@@ -84,3 +84,6 @@ lib-64/
 lib-32/swresample-*
 lib-32/swscale-*
 lib-32/av*
+
+
+venv/

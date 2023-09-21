@@ -3,17 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  BEEMOD2\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-21 13:14+1000\n"
+"POT-Creation-Date: 2023-09-21 17:12+0100\n"
 "PO-Revision-Date: 2021-11-18 17:18+0300\n"
 "Last-Translator: \n"
 "Language: ru\n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 &&"
-" n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+" n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: loadScreen.py
 msgid "Skipped!"
@@ -438,11 +438,11 @@ msgstr "Освещение:"
 msgid "None"
 msgstr "Нету!"
 
-#: app/CompilerPane.py app/CompilerPane.py app/CompilerPane.py
+#: app/CompilerPane.py
 msgid "Fast"
 msgstr "Быстрое"
 
-#: app/CompilerPane.py app/CompilerPane.py
+#: app/CompilerPane.py
 msgid "Full"
 msgstr "Полное"
 
@@ -1098,7 +1098,7 @@ msgstr "Не выбраны карты для резервирования!"
 msgid "Load Backup"
 msgstr "Загрузить бекап"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Save Backup As"
 msgstr "Сохранить бекап как"
 
@@ -1131,18 +1131,18 @@ msgstr ""
 msgid "BEEMOD {version} - Backup / Restore Puzzles"
 msgstr "BEEMOD {} - Бэкап/Восстановление головоломок"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "New Backup"
 msgstr "Новый бэкап"
 
 # "Открыть бэкап" is too long for the button, so it should be just "Открыть"
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Open Backup"
 msgstr "Открыть"
 
 # "Сохранить бэкап" is too long for the button, so it should be just
 # "Сохранить"
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Save Backup"
 msgstr "Сохранить"
 
@@ -1398,7 +1398,7 @@ msgstr "Экспортировать в \"{}\"..."
 msgid "Export to \"{game}\"*..."
 msgstr "Экспортировать в \"{}\"..."
 
-#: app/gameMan.py app/gameMan.py
+#: app/gameMan.py
 msgid "BEE2 - Export Failed!"
 msgstr "BEE2 - Экспорт не удался!"
 
@@ -1555,7 +1555,7 @@ msgstr "Сообщить о баге с предметами..."
 msgid "Submit Music Bugs..."
 msgstr "Сообщить о баге с предметами..."
 
-#: app/helpMenu.py app/helpMenu.py
+#: app/helpMenu.py
 msgid "BEEMOD2 - Failed to open URL"
 msgstr ""
 
@@ -1699,7 +1699,7 @@ msgid "Search:"
 msgstr "Поиск:"
 
 #. i18n: This is displayed in the options menu to switch to this language.
-#: app/localisation.py app/localisation.py
+#: app/localisation.py
 msgid "__LanguageName"
 msgstr "Русский (Russian)"
 
@@ -1808,7 +1808,7 @@ msgstr "Звук отталкивающего геля"
 msgid "Excursion Funnel Music"
 msgstr "Музыка экскурсионной воронки"
 
-#: app/music_conf.py app/music_conf.py
+#: app/music_conf.py
 msgid "Synced Funnel Music"
 msgstr "Синхронная музыка воронки"
 
@@ -2240,7 +2240,7 @@ msgstr "Portal 2"
 msgid "Aperture Tag"
 msgstr "Aperture Tag"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Delete Palette"
 msgstr "Удалить палитру"
 
@@ -2274,7 +2274,7 @@ msgstr "Переименовать палитру..."
 msgid "Fill Palette"
 msgstr "Заполнить набор"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Save Settings in Palettes"
 msgstr "Сохранить настройки в палитре"
 
@@ -2297,11 +2297,11 @@ msgstr "Удалить палитру \"{}\""
 msgid "BEE2 - Delete Palette"
 msgstr "Удалить палитру"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "BEE2 - Save Palette"
 msgstr "BEE2 - Сохранить Палитру"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Enter a name:"
 msgstr "Введите название:"
 
@@ -2376,7 +2376,7 @@ msgstr "Выбрать предложенное"
 msgid "Signage: {name}"
 msgstr "Знак: {}"
 
-#: app/signage_ui.py app/signage_ui.py
+#: app/signage_ui.py
 msgid "Configure Signage"
 msgstr "Настроить обозначения"
 
@@ -2437,7 +2437,7 @@ msgstr ""
 msgid "Camera Gesture - Generic"
 msgstr ""
 
-#: app/voiceEditor.py app/voiceEditor.py
+#: app/voiceEditor.py
 msgid "No Name!"
 msgstr "Нет имени!"
 

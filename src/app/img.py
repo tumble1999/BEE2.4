@@ -71,6 +71,7 @@ PETI_ITEM_BG_HEX: Final = '#{:2X}{:2X}{:2X}'.format(*PETI_ITEM_BG)
 FLIP_LEFT_RIGHT: Final = Image.FLIP_LEFT_RIGHT
 FLIP_TOP_BOTTOM: Final = Image.FLIP_TOP_BOTTOM
 FLIP_ROTATE: Final = Image.ROTATE_180
+ANTIALIAS = Image.Resampling.LANCZOS
 
 
 def _load_special(path: str) -> Image.Image:
@@ -683,7 +684,7 @@ class ImgFile(Handle):
             LOGGER.warning('Unknown package for loading images: "{}"!', self.uri)
             return Handle.error(self.width, self.height).get_pil()
 
-        return _load_file(fsys, self.uri, self.width, self.height, Image.ANTIALIAS, True)
+        return _load_file(fsys, self.uri, self.width, self.height, ANTIALIAS, True)
 
     def resize(self, width: int, height: int) -> ImgFile:
         """Return a copy with a different size."""
@@ -699,7 +700,7 @@ class ImgBuiltin(Handle):
 
     def _make_image(self) -> Image.Image:
         """Load from the builtin UI resources."""
-        return _load_file(FSYS_BUILTIN, self.uri, self.width, self.height, Image.ANTIALIAS)
+        return _load_file(FSYS_BUILTIN, self.uri, self.width, self.height, ANTIALIAS)
 
     def resize(self, width: int, height: int) -> ImgBuiltin:
         """Return a copy with a different size."""
@@ -784,7 +785,7 @@ class ImgCrop(Handle):
         # Shrink down the source to the final source so the bounds apply.
         # TODO: Rescale bounds to actual source size to improve result?
         if src_w > 0 and src_h > 0 and (src_w, src_h) != image.size:
-            image = image.resize((src_w, src_h), resample=Image.ANTIALIAS)
+            image = image.resize((src_w, src_h), resample=ANTIALIAS)
 
         if self.bounds is not None:
             image = image.crop(self.bounds)
@@ -793,7 +794,7 @@ class ImgCrop(Handle):
             image = image.transpose(self.transpose)
 
         if self.width > 0 and self.height > 0 and (self.width, self.height) != image.size:
-            image = image.resize((self.width, self.height), resample=Image.ANTIALIAS)
+            image = image.resize((self.width, self.height), resample=ANTIALIAS)
         return image
 
     def resize(self, width: int, height: int) -> ImgCrop:

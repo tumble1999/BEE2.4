@@ -17,6 +17,7 @@ LOGGER = srctools.logger.get_logger(__name__)
 LEGEND_SIZE = (512, 1024)
 CELL_SIZE = 102
 SIGN_LOC = 'bee2/materials/BEE2/models/props_map_editor/signage/signage.vtf'
+ANTIALIAS = Image.Resampling.LANCZOS
 
 
 class SignStyle(NamedTuple):
@@ -277,7 +278,7 @@ def build_texture(
         if y == 5:  # Last row is shifted over to center.
             x += 1
         try:
-            ico = icons[i + 3].get_pil().resize((CELL_SIZE, CELL_SIZE), Image.ANTIALIAS).convert('RGB')
+            ico = icons[i + 3].get_pil().resize((CELL_SIZE, CELL_SIZE), ANTIALIAS).convert('RGB')
         except KeyError:
             if blank_img is None:
                 continue

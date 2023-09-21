@@ -3,16 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-21 13:14+1000\n"
+"POT-Creation-Date: 2023-09-21 17:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
 "Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: loadScreen.py
 msgid "Skipped!"
@@ -436,11 +436,11 @@ msgstr "Iluminación:"
 msgid "None"
 msgstr "¡Ninguno!"
 
-#: app/CompilerPane.py app/CompilerPane.py app/CompilerPane.py
+#: app/CompilerPane.py
 msgid "Fast"
 msgstr "Rápida"
 
-#: app/CompilerPane.py app/CompilerPane.py
+#: app/CompilerPane.py
 msgid "Full"
 msgstr "Completa"
 
@@ -1106,7 +1106,7 @@ msgstr "¡No se ha elegido ningún mapa para realizar copias de seguridad!"
 msgid "Load Backup"
 msgstr "Cargar Copia de Seguridad"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Save Backup As"
 msgstr "Guardar Copia de Seguridad Como"
 
@@ -1139,15 +1139,15 @@ msgstr ""
 msgid "BEEMOD {version} - Backup / Restore Puzzles"
 msgstr "BEEMOD {version} - Copia de Seguridad / Restaurar Mapas"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "New Backup"
 msgstr "Nueva Copia de Seguridad"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Open Backup"
 msgstr "Abrir Copia de Seguridad"
 
-#: app/backup.py app/backup.py
+#: app/backup.py
 msgid "Save Backup"
 msgstr "Guardar Copia de Seguridad"
 
@@ -1413,7 +1413,7 @@ msgstr "Exportar a \"{game}\"..."
 msgid "Export to \"{game}\"*..."
 msgstr "Exportar a \"{game}\"*..."
 
-#: app/gameMan.py app/gameMan.py
+#: app/gameMan.py
 msgid "BEE2 - Export Failed!"
 msgstr "BEE2 - ¡Exportación Fallida!"
 
@@ -1574,7 +1574,7 @@ msgstr "Reportar errores de Ítems..."
 msgid "Submit Music Bugs..."
 msgstr "Reportar errores de Ítems..."
 
-#: app/helpMenu.py app/helpMenu.py
+#: app/helpMenu.py
 msgid "BEEMOD2 - Failed to open URL"
 msgstr ""
 
@@ -1717,7 +1717,7 @@ msgid "Search:"
 msgstr ""
 
 #. i18n: This is displayed in the options menu to switch to this language.
-#: app/localisation.py app/localisation.py
+#: app/localisation.py
 msgid "__LanguageName"
 msgstr "Español (Spanish)"
 
@@ -1829,7 +1829,7 @@ msgstr "SFX del Gel de Repulsion"
 msgid "Excursion Funnel Music"
 msgstr "Música del embudo de translación"
 
-#: app/music_conf.py app/music_conf.py
+#: app/music_conf.py
 msgid "Synced Funnel Music"
 msgstr "Música del Embudo de Translación sincronizada"
 
@@ -2254,7 +2254,7 @@ msgstr ""
 msgid "Aperture Tag"
 msgstr ""
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Delete Palette"
 msgstr "Borrar Paleta"
 
@@ -2290,7 +2290,7 @@ msgstr "Guardar Paleta..."
 msgid "Fill Palette"
 msgstr "Rellenar Paleta"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Save Settings in Palettes"
 msgstr "Guardar Ajustes en las Paletas"
 
@@ -2312,11 +2312,11 @@ msgstr "Borrar Paleta \"{name}\""
 msgid "BEE2 - Delete Palette"
 msgstr "BEE2 - Borrar Paleta"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "BEE2 - Save Palette"
 msgstr "BEE2 - Guardar Paleta"
 
-#: app/paletteUI.py app/paletteUI.py
+#: app/paletteUI.py
 msgid "Enter a name:"
 msgstr "Introduzca un nombre:"
 
@@ -2388,7 +2388,7 @@ msgstr "Recomendado"
 msgid "Signage: {name}"
 msgstr "Cartel: {name}"
 
-#: app/signage_ui.py app/signage_ui.py
+#: app/signage_ui.py
 msgid "Configure Signage"
 msgstr "Configurar Cartel"
 
@@ -2450,7 +2450,7 @@ msgstr ""
 msgid "Camera Gesture - Generic"
 msgstr ""
 
-#: app/voiceEditor.py app/voiceEditor.py
+#: app/voiceEditor.py
 msgid "No Name!"
 msgstr "¡Sin nombre!"
 
